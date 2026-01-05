@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Start your crowdfunding campaign on FundHub - Launch your innovative project and reach millions of backers worldwide.">
+    <meta name="keywords" content="start campaign, crowdfunding, launch project, fund raising">
+    <meta name="robots" content="index, follow">
+    <title>Start Your Campaign - FundHub</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">FundHub</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#campaign" class="nav-link nav-link-primary">Start Campaign</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Campaign Hero Section -->
+    <section class="contact-hero" id="campaign">
+        <div class="container">
+            <h1>Start Your Campaign</h1>
+            <p>Transform your innovative idea into reality. Launch your crowdfunding campaign today and reach millions of backers.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="campaign-features">
+        <div class="container">
+            <h2 class="section-title">Why Start a Campaign on FundHub?</h2>
+            <p class="section-subtitle">Get everything you need to launch your project successfully</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Easy Setup</h3>
+                    <p>Create your campaign in minutes with our intuitive campaign builder. No technical skills required.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Reach</h3>
+                    <p>Access millions of backers from around the world. Expand your audience and reach your funding goals.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Secure Payments</h3>
+                    <p>All transactions are secured with industry-leading encryption. Fund disbursement within 48 hours.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Analytics & Insights</h3>
+                    <p>Real-time dashboard to track campaign performance, backer engagement, and funding progress.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Community Support</h3>
+                    <p>Join a vibrant community of creators. Get feedback, advice, and networking opportunities.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Multi-Platform</h3>
+                    <p>Reach backers across web and mobile. Share your campaign easily on social media platforms.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">✉️</div>
+                    <h3>Backer Communication</h3>
+                    <p>Built-in messaging tools to keep your backers updated and engaged throughout your campaign.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Proven Success</h3>
+                    <p>Join thousands of successful campaigns. 95% funding success rate with our support team's guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campaign Form Section -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Campaign Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Launch Your Campaign</h2>
+                    <form id="campaignForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="creator-name">Creator Name *</label>
+                            <input type="text" id="creator-name" name="creator-name" required placeholder="Your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="creator-email">Email Address *</label>
+                            <input type="email" id="creator-email" name="creator-email" required placeholder="your@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-title">Project Title *</label>
+                            <input type="text" id="project-title" name="project-title" required placeholder="Give your project a catchy title">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="category">Project Category *</label>
+                            <select id="category" name="category" required>
+                                <option value="">Select a category</option>
+                                <option value="technology">Technology & Innovation</option>
+                                <option value="education">Education</option>
+                                <option value="fashion">Fashion & Design</option>
+                                <option value="health">Health & Wellness</option>
+                                <option value="energy">Energy & Environment</option>
+                                <option value="gaming">Gaming & Entertainment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="funding-goal">Funding Goal (kr) *</label>
+                            <input type="number" id="funding-goal" name="funding-goal" required placeholder="How much do you need to raise?" min="100000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="campaign-duration">Campaign Duration (Days) *</label>
+                            <input type="number" id="campaign-duration" name="campaign-duration" required placeholder="30-60 days recommended" min="15" max="365">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-description">Project Description *</label>
+                            <textarea id="project-description" name="project-description" rows="6" required placeholder="Tell us about your innovative project, what makes it unique, and why people should support it..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="creator-bio">Creator Bio/Background</label>
+                            <textarea id="creator-bio" name="creator-bio" rows="4" placeholder="Share your experience and why you're the right person to execute this project..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to FundHub's Terms of Service and Campaign Guidelines *</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit Campaign</button>
+                        <p id="campaignMessage"></p>
+                    </form>
+                </div>
+
+                <!-- Campaign Guidelines -->
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-card">
+                        <h3>Campaign Guidelines</h3>
+                        <div class="info-item">
+                            <span class="info-icon">✓</span>
+                            <div>
+                                <p class="info-label">Clear Vision</p>
+                                <p>Have a clear, compelling description of your project and its potential impact.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✓</span>
+                            <div>
+                                <p class="info-label">Realistic Goals</p>
+                                <p>Set achievable funding targets with a detailed budget breakdown.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✓</span>
+                            <div>
+                                <p class="info-label">Quality Media</p>
+                                <p>Include high-quality images and videos showcasing your project.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✓</span>
+                            <div>
+                                <p class="info-label">Reward Planning</p>
+                                <p>Create attractive reward tiers at different funding levels.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✓</span>
+                            <div>
+                                <p class="info-label">Regular Updates</p>
+                                <p>Plan to keep your backers engaged with regular project updates.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>The Process</h3>
+                        <div class="info-item">
+                            <span class="info-icon">1️⃣</span>
+                            <div>
+                                <p class="info-label">Submit Campaign</p>
+                                <p>Fill out the campaign form with all project details.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">2️⃣</span>
+                            <div>
+                                <p class="info-label">Review Period</p>
+                                <p>Our team reviews your campaign within 5-7 business days.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">3️⃣</span>
+                            <div>
+                                <p class="info-label">Launch</p>
+                                <p>Once approved, your campaign goes live on FundHub.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">4️⃣</span>
+                            <div>
+                                <p class="info-label">Promote</p>
+                                <p>Start promoting your campaign and engaging with potential backers.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">5️⃣</span>
+                            <div>
+                                <p class="info-label">Fulfill</p>
+                                <p>Once funded, work on project completion and reward fulfillment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-content" style="background-color: #f8f9fa; padding: 60px 0;">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <h4>How much does it cost to start a campaign?</h4>
+                    <p>FundHub charges a 5% platform fee on successfully funded campaigns. No upfront costs required.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What happens if my campaign doesn't reach its goal?</h4>
+                    <p>Projects using our flexible funding can keep the funds raised. All-or-nothing projects refund backers automatically.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How long should my campaign run?</h4>
+                    <p>Optimal campaign duration is 30-60 days. Shorter campaigns create urgency, while longer ones allow more time to build momentum.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I edit my campaign after launch?</h4>
+                    <p>Yes, you can update your campaign description, add new images, and post updates to keep backers engaged.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>When do I receive the funds?</h4>
+                    <p>Funds are disbursed within 48 hours of campaign completion, minus the platform fee and payment processing costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About FundHub</h4>
+                    <p>Empowering creators and innovators to bring their ideas to life through community support and crowdfunding.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#home">Home</a></li>
+                        <li><a href="../index.html#projects">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FundHub. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with FundHub - Contact us for support, partnership, or campaign inquiries.">
+    <meta name="keywords" content="contact FundHub, support, help, partnership, inquiry">
+    <meta name="robots" content="index, follow">
+    <title>Contact Us - FundHub</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">FundHub</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="start-campaign.html" class="nav-link nav-link-primary">Start Campaign</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero" id="contact">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content Section -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="campaign">Campaign Question</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="bug">Report a Bug</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us more about your inquiry..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Subscribe to our newsletter for updates and opportunities</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p id="formMessage"></p>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <span class="info-icon">📧</span>
+                            <div>
+                                <p class="info-label">Email</p>
+                                <p><a href="mailto:support@fundhub.no">support@fundhub.no</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <p class="info-label">Phone</p>
+                                <p><a href="tel:+4722334455">+47 22 33 44 55</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <p class="info-label">Address</p>
+                                <p>Storgata 15<br>0161 Oslo<br>Norway</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🕐</span>
+                            <div>
+                                <p class="info-label">Business Hours</p>
+                                <p>Monday - Friday: 09:00 - 17:00 CET/CEST<br>Saturday: 10:00 - 14:00 CET/CEST<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card faq-card">
+                        <h3>Frequently Asked Questions</h3>
+                        <div class="faq-item">
+                            <h4>How long does it take to respond?</h4>
+                            <p>We typically respond to inquiries within 24-48 business hours.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>How do I start a campaign?</h4>
+                            <p>Fill out our campaign form and our team will review your project within 5-7 business days.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>What payment methods do you accept?</h4>
+                            <p>We accept all major credit cards, PayPal, and digital wallets.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Is my information secure?</h4>
+                            <p>Yes, all transactions are encrypted with 256-bit SSL security.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About FundHub</h4>
+                    <p>Empowering creators and innovators to bring their ideas to life through community support and crowdfunding.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#home">Home</a></li>
+                        <li><a href="../index.html#projects">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FundHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FundHub - Crowdfunding Platform for innovative projects. Connect with creators and bring dreams to reality.">
+    <meta name="keywords" content="crowdfunding, projects, campaigns, funding, startup, innovation">
+    <meta name="author" content="FundHub Team">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="FundHub - Crowdfunding Platform">
+    <meta property="og:description" content="Support innovative projects and campaigns through FundHub">
+    <meta property="og:type" content="website">
+    <title>FundHub - Crowdfunding    mongodb+srv://username:password@cluster.mongodb.net/crowdfunding?retryWrites=true&w=majority    mongodb+srv://username:password@cluster.mongodb.net/crowdfunding?retryWrites=true&w=majority Platform</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">FundHub</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a> 
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/start-campaign.html" class="nav-link nav-link-primary">Start Campaign</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Fund Your Dreams, Support Innovation</h1>
+            <p class="hero-subtitle">Connect with passionate creators and bring groundbreaking projects to life. Discover, support, and celebrate innovation.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                <a href="pages/start-campaign.html" class="btn btn-secondary">Start Your Campaign</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-image-placeholder" style="background: linear-gradient(135deg, #007BFF 0%, #00D4FF 100%); padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 123, 255, 0.3);">
+                <img src="assets/images/image.png" alt="Crowdfunding - Support Innovation" style="border-radius: 15px; display: block; width: 100%;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Discover amazing projects funded by our community</p>
+            
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop" alt="Smart Home Device">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SmartHome India</h3>
+                        <p class="project-description">Revolutionary IoT device for home automation and energy efficiency</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Funded</span>
+                                <span class="stat-value">kr 3,75,000</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Goal</span>
+                                <span class="stat-value">kr 41,60,000</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90.46%"></div>
+                        </div>
+                        <a href="pages/campaign-detail.html" class="project-link">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="AI Education App">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Education AI Platform</h3>
+                        <p class="project-description">Personalized learning with artificial intelligence and machine learning</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Funded</span>
+                                <span class="stat-value">kr 2,65,000</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Goal</span>
+                                <span class="stat-value">kr 3,30,000</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80.25%"></div>
+                        </div>
+                        <a href="pages/campaign-detail.html" class="project-link">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=250&fit=crop" alt="Sustainable Fashion">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sustainable Fashion India</h3>
+                        <p class="project-description">Eco-friendly clothing made from 100% recycled materials</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Funded</span>
+                                <span class="stat-value">kr 2,35,000</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Goal</span>
+                                <span class="stat-value">kr 2,90,000</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 81.43%"></div>
+                        </div>
+                        <a href="pages/campaign-detail.html" class="project-link">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f70504ce0?w=400&h=250&fit=crop" alt="Health Tech">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Health Monitoring Wearable</h3>
+                        <p class="project-description">Advanced wearable technology for real-time health monitoring</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Funded</span>
+                                <span class="stat-value">kr 3,20,000</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Goal</span>
+                                <span class="stat-value">kr 3,70,000</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 86.44%"></div>
+                        </div>
+                        <a href="pages/campaign-detail.html" class="project-link">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop" alt="Gaming Console">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Gaming Console India</h3>
+                        <p class="project-description">Portable gaming device with cutting-edge graphics</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Funded</span>
+                                <span class="stat-value">kr 4,35,000</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Goal</span>
+                                <span class="stat-value">kr 4,95,000</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 87.17%"></div>
+                        </div>
+                        <a href="pages/campaign-detail.html" class="project-link">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop" alt="Solar Panel">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Solar Panel India</h3>
+                        <p class="project-description">Accessible renewable energy solution for homes</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Funded</span>
+                                <span class="stat-value">kr 3,45,000</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Goal</span>
+                                <span class="stat-value">kr 41,60,000</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 83%"></div>
+                        </div>
+                        <a href="pages/campaign-detail.html" class="project-link">View Details →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Browse Projects</h3>
+                    <p>Explore thousands of innovative projects from creators around the world.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Back a Project</h3>
+                    <p>Support projects you believe in with flexible funding options.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Receive Updates</h3>
+                    <p>Stay connected with creators and get exclusive project updates.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Get Your Rewards</h3>
+                    <p>Enjoy rewards and early access to products from funded projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3 class="stat-number">kr 2,075 Million+</h3>
+                    <p class="stat-label">Funded Globally</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">150K+</h3>
+                    <p class="stat-label">Successful Projects</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">18M+</h3>
+                    <p class="stat-label">Active Backers</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">195</h3>
+                    <p class="stat-label">Countries</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Make an Impact?</h2>
+            <p>Start your crowdfunding journey today and turn your ideas into reality.</p>
+            <a href="pages/start-campaign.html" class="btn btn-primary-large">Start Your Campaign</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About FundHub</h4>
+                    <p>Empowering creators and innovators to bring their ideas to life through community support and crowdfunding.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="pages/about.html">About</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FundHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>
