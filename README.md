@@ -42,7 +42,6 @@ Screenshots
 - **JavaScript (optional / future scope)** – Interactivity  
 - **Git & GitHub** – Version control  
 
----
 
-## 📁 Project Structure
+
 
